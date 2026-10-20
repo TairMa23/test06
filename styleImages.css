@@ -2,6 +2,12 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   text-align: center;
+
+
+  background-image:
+    radial-gradient(circle at top left, rgba(128, 0, 128, 0.3), transparent 50%),
+    radial-gradient(circle at top right, rgba(255, 165, 0, 0.3), transparent 50%);
+
 }
 
 .navbar {
@@ -101,7 +107,7 @@ body {
 }
 
 
-.img{
+.img {
   width: 200px;
   height: 200px;
   border-radius: 15px;
